@@ -6,7 +6,7 @@ window.onload = function() {
   var context = canvas.getContext('2d');
 
   var lit = false;
-  const boilDelay = 2000;
+  const boilDelay = 5000;
   var boilTimer = 0;
 
   var potHolder = document.getElementById('stove');
